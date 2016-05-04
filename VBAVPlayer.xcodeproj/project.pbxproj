@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29B9CF41CDA9DC300C218DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9CF31CDA9DC300C218DB /* main.m */; };
+		A29B9CF71CDA9DC300C218DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9CF61CDA9DC300C218DB /* AppDelegate.m */; };
+		A29B9CFA1CDA9DC300C218DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9CF91CDA9DC300C218DB /* ViewController.m */; };
+		A29B9CFF1CDA9DC300C218DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29B9CFE1CDA9DC300C218DB /* Assets.xcassets */; };
+		A29B9D021CDA9DC300C218DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29B9D001CDA9DC300C218DB /* LaunchScreen.storyboard */; };
+		A29B9D0D1CDA9DC300C218DB /* VBAVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9D0C1CDA9DC300C218DB /* VBAVPlayerTests.m */; };
+		A29B9D181CDA9DC300C218DB /* VBAVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9D171CDA9DC300C218DB /* VBAVPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A29B9D091CDA9DC300C218DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29B9CE71CDA9DC200C218DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29B9CEE1CDA9DC300C218DB;
+			remoteInfo = VBAVPlayer;
+		};
+		A29B9D141CDA9DC300C218DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29B9CE71CDA9DC200C218DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29B9CEE1CDA9DC300C218DB;
+			remoteInfo = VBAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A29B9CEF1CDA9DC300C218DB /* VBAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29B9CF31CDA9DC300C218DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A29B9CF51CDA9DC300C218DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A29B9CF61CDA9DC300C218DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A29B9CF81CDA9DC300C218DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A29B9CF91CDA9DC300C218DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A29B9CFE1CDA9DC300C218DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A29B9D011CDA9DC300C218DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A29B9D031CDA9DC300C218DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29B9D081CDA9DC300C218DB /* VBAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29B9D0C1CDA9DC300C218DB /* VBAVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAVPlayerTests.m; sourceTree = "<group>"; };
+		A29B9D0E1CDA9DC300C218DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29B9D131CDA9DC300C218DB /* VBAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29B9D171CDA9DC300C218DB /* VBAVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAVPlayerUITests.m; sourceTree = "<group>"; };
+		A29B9D191CDA9DC300C218DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29B9CEC1CDA9DC300C218DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29B9D051CDA9DC300C218DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29B9D101CDA9DC300C218DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A29B9CE61CDA9DC200C218DB = {
+			isa = PBXGroup;
+			children = (
+				A29B9CF11CDA9DC300C218DB /* VBAVPlayer */,
+				A29B9D0B1CDA9DC300C218DB /* VBAVPlayerTests */,
+				A29B9D161CDA9DC300C218DB /* VBAVPlayerUITests */,
+				A29B9CF01CDA9DC300C218DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A29B9CF01CDA9DC300C218DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29B9CEF1CDA9DC300C218DB /* VBAVPlayer.app */,
+				A29B9D081CDA9DC300C218DB /* VBAVPlayerTests.xctest */,
+				A29B9D131CDA9DC300C218DB /* VBAVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29B9CF11CDA9DC300C218DB /* VBAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A29B9CF51CDA9DC300C218DB /* AppDelegate.h */,
+				A29B9CF61CDA9DC300C218DB /* AppDelegate.m */,
+				A29B9CF81CDA9DC300C218DB /* ViewController.h */,
+				A29B9CF91CDA9DC300C218DB /* ViewController.m */,
+				A29B9CFE1CDA9DC300C218DB /* Assets.xcassets */,
+				A29B9D001CDA9DC300C218DB /* LaunchScreen.storyboard */,
+				A29B9D031CDA9DC300C218DB /* Info.plist */,
+				A29B9CF21CDA9DC300C218DB /* Supporting Files */,
+			);
+			path = VBAVPlayer;
+			sourceTree = "<group>";
+		};
+		A29B9CF21CDA9DC300C218DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A29B9CF31CDA9DC300C218DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A29B9D0B1CDA9DC300C218DB /* VBAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A29B9D0C1CDA9DC300C218DB /* VBAVPlayerTests.m */,
+				A29B9D0E1CDA9DC300C218DB /* Info.plist */,
+			);
+			path = VBAVPlayerTests;
+			sourceTree = "<group>";
+		};
+		A29B9D161CDA9DC300C218DB /* VBAVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A29B9D171CDA9DC300C218DB /* VBAVPlayerUITests.m */,
+				A29B9D191CDA9DC300C218DB /* Info.plist */,
+			);
+			path = VBAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29B9CEE1CDA9DC300C218DB /* VBAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29B9D1C1CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayer" */;
+			buildPhases = (
+				A29B9CEB1CDA9DC300C218DB /* Sources */,
+				A29B9CEC1CDA9DC300C218DB /* Frameworks */,
+				A29B9CED1CDA9DC300C218DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VBAVPlayer;
+			productName = VBAVPlayer;
+			productReference = A29B9CEF1CDA9DC300C218DB /* VBAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A29B9D071CDA9DC300C218DB /* VBAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29B9D1F1CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayerTests" */;
+			buildPhases = (
+				A29B9D041CDA9DC300C218DB /* Sources */,
+				A29B9D051CDA9DC300C218DB /* Frameworks */,
+				A29B9D061CDA9DC300C218DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29B9D0A1CDA9DC300C218DB /* PBXTargetDependency */,
+			);
+			name = VBAVPlayerTests;
+			productName = VBAVPlayerTests;
+			productReference = A29B9D081CDA9DC300C218DB /* VBAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A29B9D121CDA9DC300C218DB /* VBAVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29B9D221CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayerUITests" */;
+			buildPhases = (
+				A29B9D0F1CDA9DC300C218DB /* Sources */,
+				A29B9D101CDA9DC300C218DB /* Frameworks */,
+				A29B9D111CDA9DC300C218DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29B9D151CDA9DC300C218DB /* PBXTargetDependency */,
+			);
+			name = VBAVPlayerUITests;
+			productName = VBAVPlayerUITests;
+			productReference = A29B9D131CDA9DC300C218DB /* VBAVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29B9CE71CDA9DC200C218DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = VisionBao;
+				TargetAttributes = {
+					A29B9CEE1CDA9DC300C218DB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A29B9D071CDA9DC300C218DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A29B9CEE1CDA9DC300C218DB;
+					};
+					A29B9D121CDA9DC300C218DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A29B9CEE1CDA9DC300C218DB;
+					};
+				};
+			};
+			buildConfigurationList = A29B9CEA1CDA9DC200C218DB /* Build configuration list for PBXProject "VBAVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A29B9CE61CDA9DC200C218DB;
+			productRefGroup = A29B9CF01CDA9DC300C218DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29B9CEE1CDA9DC300C218DB /* VBAVPlayer */,
+				A29B9D071CDA9DC300C218DB /* VBAVPlayerTests */,
+				A29B9D121CDA9DC300C218DB /* VBAVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29B9CED1CDA9DC300C218DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29B9D021CDA9DC300C218DB /* LaunchScreen.storyboard in Resources */,
+				A29B9CFF1CDA9DC300C218DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29B9D061CDA9DC300C218DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29B9D111CDA9DC300C218DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29B9CEB1CDA9DC300C218DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29B9CFA1CDA9DC300C218DB /* ViewController.m in Sources */,
+				A29B9CF71CDA9DC300C218DB /* AppDelegate.m in Sources */,
+				A29B9CF41CDA9DC300C218DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29B9D041CDA9DC300C218DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29B9D0D1CDA9DC300C218DB /* VBAVPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29B9D0F1CDA9DC300C218DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29B9D181CDA9DC300C218DB /* VBAVPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A29B9D0A1CDA9DC300C218DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29B9CEE1CDA9DC300C218DB /* VBAVPlayer */;
+			targetProxy = A29B9D091CDA9DC300C218DB /* PBXContainerItemProxy */;
+		};
+		A29B9D151CDA9DC300C218DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29B9CEE1CDA9DC300C218DB /* VBAVPlayer */;
+			targetProxy = A29B9D141CDA9DC300C218DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A29B9D001CDA9DC300C218DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29B9D011CDA9DC300C218DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A29B9D1A1CDA9DC300C218DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A29B9D1B1CDA9DC300C218DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A29B9D1D1CDA9DC300C218DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VBAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VisionBao.VBAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A29B9D1E1CDA9DC300C218DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VBAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VisionBao.VBAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A29B9D201CDA9DC300C218DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VBAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VisionBao.VBAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBAVPlayer.app/VBAVPlayer";
+			};
+			name = Debug;
+		};
+		A29B9D211CDA9DC300C218DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VBAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VisionBao.VBAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBAVPlayer.app/VBAVPlayer";
+			};
+			name = Release;
+		};
+		A29B9D231CDA9DC300C218DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VBAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VisionBao.VBAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VBAVPlayer;
+			};
+			name = Debug;
+		};
+		A29B9D241CDA9DC300C218DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VBAVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VisionBao.VBAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VBAVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29B9CEA1CDA9DC200C218DB /* Build configuration list for PBXProject "VBAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29B9D1A1CDA9DC300C218DB /* Debug */,
+				A29B9D1B1CDA9DC300C218DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29B9D1C1CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29B9D1D1CDA9DC300C218DB /* Debug */,
+				A29B9D1E1CDA9DC300C218DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A29B9D1F1CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29B9D201CDA9DC300C218DB /* Debug */,
+				A29B9D211CDA9DC300C218DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A29B9D221CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29B9D231CDA9DC300C218DB /* Debug */,
+				A29B9D241CDA9DC300C218DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29B9CE71CDA9DC200C218DB /* Project object */;
+}
