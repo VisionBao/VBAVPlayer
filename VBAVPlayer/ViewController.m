@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VBSpeechController.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    [VBSpeechController speechController];
 }
 
 - (void)didReceiveMemoryWarning {

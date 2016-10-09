@@ -14,6 +14,7 @@
 		A29B9D021CDA9DC300C218DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29B9D001CDA9DC300C218DB /* LaunchScreen.storyboard */; };
 		A29B9D0D1CDA9DC300C218DB /* VBAVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9D0C1CDA9DC300C218DB /* VBAVPlayerTests.m */; };
 		A29B9D181CDA9DC300C218DB /* VBAVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9D171CDA9DC300C218DB /* VBAVPlayerUITests.m */; };
+		A29B9D281CDB46CB00C218DB /* VBSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B9D271CDB46CB00C218DB /* VBSpeechController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		A29B9D131CDA9DC300C218DB /* VBAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29B9D171CDA9DC300C218DB /* VBAVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAVPlayerUITests.m; sourceTree = "<group>"; };
 		A29B9D191CDA9DC300C218DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29B9D261CDB46CB00C218DB /* VBSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBSpeechController.h; path = ../../../VBSpeechController.h; sourceTree = "<group>"; };
+		A29B9D271CDB46CB00C218DB /* VBSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBSpeechController.m; path = ../../../VBSpeechController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				A29B9CF61CDA9DC300C218DB /* AppDelegate.m */,
 				A29B9CF81CDA9DC300C218DB /* ViewController.h */,
 				A29B9CF91CDA9DC300C218DB /* ViewController.m */,
+				A29B9D251CDB464D00C218DB /* VBAVPlayer */,
 				A29B9CFE1CDA9DC300C218DB /* Assets.xcassets */,
 				A29B9D001CDA9DC300C218DB /* LaunchScreen.storyboard */,
 				A29B9D031CDA9DC300C218DB /* Info.plist */,
@@ -135,6 +139,15 @@
 				A29B9D191CDA9DC300C218DB /* Info.plist */,
 			);
 			path = VBAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		A29B9D251CDB464D00C218DB /* VBAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A29B9D261CDB46CB00C218DB /* VBSpeechController.h */,
+				A29B9D271CDB46CB00C218DB /* VBSpeechController.m */,
+			);
+			path = VBAVPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 				A29B9CFA1CDA9DC300C218DB /* ViewController.m in Sources */,
 				A29B9CF71CDA9DC300C218DB /* AppDelegate.m in Sources */,
 				A29B9CF41CDA9DC300C218DB /* main.m in Sources */,
+				A29B9D281CDB46CB00C218DB /* VBSpeechController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +502,7 @@
 				A29B9D1E1CDA9DC300C218DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29B9D1F1CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +511,7 @@
 				A29B9D211CDA9DC300C218DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A29B9D221CDA9DC300C218DB /* Build configuration list for PBXNativeTarget "VBAVPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +520,7 @@
 				A29B9D241CDA9DC300C218DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
